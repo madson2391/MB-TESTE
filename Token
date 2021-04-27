@@ -1,3 +1,4 @@
+clear
 echo ""
 echo -e "    \033[0m\033[01;37m• \033[01;33mTestador de Token personalizado \033[0m\033[01;37m•\033[0m"
 echo -e "\033[01;37mTrue = \033[01;32mAprovado \033[01;37m| False = \033[01;31mRelaxe"
