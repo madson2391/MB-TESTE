@@ -46,7 +46,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 2 \e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -60,7 +60,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 3 \e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -74,7 +74,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 4 \e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -88,7 +88,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 5 \e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -103,7 +103,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 6 \e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -118,7 +118,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 7 \e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -133,7 +133,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 8 \e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -148,7 +148,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 9 \e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -163,7 +163,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 10 \e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -178,7 +178,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 11 \e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -193,7 +193,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 12 \e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -208,7 +208,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 13 \e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -223,7 +223,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 14 100MB\e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -238,7 +238,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 15 100MB\e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -253,7 +253,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 16 100MB\e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -268,7 +268,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 17 100MB\e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 case $body in
@@ -283,7 +283,7 @@ echo
 echo -e "\e[0m\e[01;37;41m TOKEN 18 \e[0m"
 for i in $(seq $VEZES);
 do
-response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
 body=$(echo $response | jq '.packprovision')
 pack=$'"packprovisionOK"'
 
