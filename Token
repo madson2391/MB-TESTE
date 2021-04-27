@@ -1,0 +1,39 @@
+pkg install jq -y -qq --silent
+pkg install pv -y -qq --silent
+#!/bin/bash
+clear
+echo
+echo -e "\e[01;37;41m      • TESTADOR AUTOMÁTICO •        \e[0m"
+sleep .5
+echo
+echo -e "\e[01;37;41m SUA TOKEN \e[0m"
+aa=$(echo -e "\e[01;37mToken:\e[0m")
+read -p "$aa" TOKEN
+
+NUMERO"5593991113234";
+VEZES="20"
+clear
+echo -e $tit
+echo
+echo -e "\e[01;37;41m      • TESTADOR AUTOMÁTICO •        \e[0m"
+echo
+echo -e "\e[01;37;41m VAI BRASILIAM \e[0m"|pv -qL 15
+echo -e "\e[01;37;41m TOKEN: $TOKEN \e[0m"
+echo -e "\e[01;37;41m NUMERO: $NUMERO \e[0m"
+echo
+sleep .5
+
+echo -e "\e[0m\e[01;37;41m Vaiiiii \e[0m"
+for i in $(seq $VEZES);
+do
+response=$(data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+body=$(echo $response | jq '.packprovision')
+pack=$'"packprovisionOK"'
+
+case $body in
+null) echo -e "\e[01;33mCerto, mais\e[0m \e[01;37mINICIANDO PRÓXIMO TOKEN...\e[0m"|pv -qL 20; break;;
+$pack) echo -e "\e[01;32mSUCESSO, SÓ ESPERAR CAIR\e[0m \e[01;37mCONTAGEM: $i\e[0m"|pv -qL 18;;
+*) echo "Informe Vivo: IMEI capturado, pode ser bloqueado pelo uso indevido conforme regulamento em nossa Rede, ligue no 1058 "; echo $response; break
+*esac
+*done
+*echo -e "\e[01;37;41m          NUNCA É UM ADEUS           \e[0m"|pv -qL 20
