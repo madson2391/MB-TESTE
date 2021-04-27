@@ -6,9 +6,8 @@ echo
 echo -e "\e[01;37;41m      • TESTADOR AUTOMÁTICO •        \e[0m"
 sleep .5
 echo
-echo -e "\e[01;37;41m SUA TOKEN \e[0m"
-aa=$(echo -e "\e[01;37mToken:\e[0m")
-read -p "$aa" TOKEN
+echo -e "\033[01;32mCola seu Token aí\033[01;37m"
+read -p 'Token: ' TOKEN
 
 NUMERO="5593991113234";
 VEZES="20"
