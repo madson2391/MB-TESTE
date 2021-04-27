@@ -10,7 +10,7 @@ echo -e "\e[01;37;41m SUA TOKEN \e[0m"
 aa=$(echo -e "\e[01;37mToken:\e[0m")
 read -p "$aa" TOKEN
 
-NUMERO"5593991113234";
+NUMERO="5593991113234";
 VEZES="20"
 clear
 echo -e $tit
