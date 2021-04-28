@@ -26,7 +26,7 @@ echo -e "\033[01;32m Cole seu Token:\033[01;37m"
 read TOKEN
 echo -e "\033[01;32m Seu número:\033[01;37m"
 read NUMERO
-VEZES="20";
+VEZES="10";
 echo -e "\033[01;32m Iniciando Teste 1 a 18\033[1;37m"
 sleep 1
 echo ""
