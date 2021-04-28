@@ -15,16 +15,16 @@ read OPTION
 
 case $OPTION in
         (1) 
-                curl -sO https://raw.githubusercontent.com/fabricio94b/PacoteFree/main/mbsfree1 && chmod 777 mbsfree1 && ./mbsfree1
+                curl -sO https://raw.githubusercontent.com/madson2391/MB-TESTE/main/MBs && chmod 777 MBs && ./MBs
                         ;;
                                 (2) 
-                                        curl -sO https://raw.githubusercontent.com/fabricio94b/PacoteFree/main/mbsfree2 && chmod 777 mbsfree2 && ./mbsfree2
+                                        curl -sO https://raw.githubusercontent.com/madson2391/MB-TESTE/main/MBsComNumero && chmod 777 MBsComNumero && ./MBsComNumero
                                                 ;;
                                                         (3) 
-                curl -sO https://raw.githubusercontent.com/fabricio94b/PacoteFree/main/mbsfree1 && chmod 777 mbsfree1 && ./mbsfree1
+                curl -sO https://raw.githubusercontent.com/madson2391/MB-TESTE/main/Token && chmod 777 Token && ./Token
                         ;;
                                 (4) 
-                                        curl -sO https://raw.githubusercontent.com/fabricio94b/PacoteFree/main/mbsfree2 && chmod 777 mbsfree2 && ./mbsfree2
+                                        curl -sO https://raw.githubusercontent.com/madson2391/MB-TESTE/main/TokenComNumero && chmod 777 TokenComNumero && ./TokenComNumero
                                         ;;
                                                         (5)
                                                                 curl -sO https://raw.githubusercontent.com/fabricio94b/PacoteFree/main/mbsfree2 && chmod 777 mbsfree2 && ./mbsfree2                                                
