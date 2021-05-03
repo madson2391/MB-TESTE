@@ -51,9 +51,9 @@ case $body in
 null) echo -e "\e[01;33mReprovado"|pv -qL 20; break;;
 $pack) echo -e "\e[01;32mAprovado\e[0m \e[01;37mTeste: $i\e[0m"|pv -qL 18;;
 *) echo "Erro"
-**esac
-*done
-**echo
+esac
+done
+echo
 
 echo -e "\e[0m\e[01;37;47m TOKEN teste 2 \e[0m"
 for i in $(seq $VEZES);
@@ -65,9 +65,9 @@ case $body in
 null) echo -e "\e[01;33mReprovado"|pv -qL 20; break;;
 $pack) echo -e "\e[01;32mAprovado\e[0m \e[01;37mTeste: $i\e[0m"|pv -qL 18;;
 *) echo "Erro"
-**esac
-*done
-**echo
+esac
+done
+echo
 
 echo -e "\e[0m\e[01;37;47m TOKEN teste 3 \e[0m"
 for i in $(seq $VEZES);
@@ -79,9 +79,9 @@ case $body in
 null) echo -e "\e[01;33mReprovado"|pv -qL 20; break;;
 $pack) echo -e "\e[01;32mAprovado\e[0m \e[01;37mTeste: $i\e[0m"|pv -qL 18;;
 *) echo "Erro"
-**esac
-*done
-**echo
+esac
+done
+echo
 
 echo -e "\e[0m\e[01;37;47m TOKEN teste 4 \e[0m"
 for i in $(seq $VEZES);
@@ -93,9 +93,9 @@ case $body in
 null) echo -e "\e[01;33mReprovado"|pv -qL 20; break;;
 $pack) echo -e "\e[01;32mAprovado\e[0m \e[01;37mTeste: $i\e[0m"|pv -qL 18;;
 *) echo "Erro"
-**esac
-*done
-**echo
+esac
+done
+echo
 
 echo -e "\e[0m\e[01;37;47m TOKEN teste 5 \e[0m"
 for i in $(seq $VEZES);
@@ -107,9 +107,9 @@ case $body in
 null) echo -e "\e[01;33mReprovado"|pv -qL 20; break;;
 $pack) echo -e "\e[01;32mAprovado\e[0m \e[01;37mTeste: $i\e[0m"|pv -qL 18;;
 *) echo "Erro"
-**esac
-*done
-**echo
+esac
+done
+echo
 
 echo -e "\e[0m\e[01;37;47m TOKEN teste 6 \e[0m"
 for i in $(seq $VEZES);
@@ -121,9 +121,9 @@ case $body in
 null) echo -e "\e[01;33mReprovado"|pv -qL 20; break;;
 $pack) echo -e "\e[01;32mAprovado\e[0m \e[01;37mTeste: $i\e[0m"|pv -qL 18;;
 *) echo "Erro"
-**esac
-*done
-**echo
+esac
+done
+echo
 
 echo -e "\e[0m\e[01;37;47m TOKEN teste 7 \e[0m"
 for i in $(seq $VEZES);
@@ -135,9 +135,9 @@ case $body in
 null) echo -e "\e[01;33mReprovado"|pv -qL 20; break;;
 $pack) echo -e "\e[01;32mAprovado\e[0m \e[01;37mTeste: $i\e[0m"|pv -qL 18;;
 *) echo "Erro"
-**esac
-*done
-**echo
+esac
+done
+echo
 
 echo -e "\e[0m\e[01;37;47m TOKEN teste 8 \e[0m"
 for i in $(seq $VEZES);
@@ -149,9 +149,9 @@ case $body in
 null) echo -e "\e[01;33mReprovado"|pv -qL 20; break;;
 $pack) echo -e "\e[01;32mAprovado\e[0m \e[01;37mTeste: $i\e[0m"|pv -qL 18;;
 *) echo "Erro"
-**esac
-*done
-**echo
+esac
+done
+echo
 
 echo -e "\e[0m\e[01;37;47m TOKEN teste 9 \e[0m"
 for i in $(seq $VEZES);
@@ -163,9 +163,9 @@ case $body in
 null) echo -e "\e[01;33mReprovado"|pv -qL 20; break;;
 $pack) echo -e "\e[01;32mAprovado\e[0m \e[01;37mTeste: $i\e[0m"|pv -qL 18;;
 *) echo "Erro"
-**esac
-*done
-**echo
+esac
+done
+echo
 
 echo -e "\e[0m\e[01;37;47m TOKEN teste 10 \e[0m"
 for i in $(seq $VEZES);
@@ -177,9 +177,9 @@ case $body in
 null) echo -e "\e[01;33mReprovado"|pv -qL 20; break;;
 $pack) echo -e "\e[01;32mAprovado\e[0m \e[01;37mTeste: $i\e[0m"|pv -qL 18;;
 *) echo "Erro"
-**esac
-*done
-**echo
+esac
+done
+echo
 
 echo -e "\e[0m\e[01;37;47m TOKEN teste 11 \e[0m"
 for i in $(seq $VEZES);
@@ -191,9 +191,9 @@ case $body in
 null) echo -e "\e[01;33mReprovado"|pv -qL 20; break;;
 $pack) echo -e "\e[01;32mAprovado\e[0m \e[01;37mTeste: $i\e[0m"|pv -qL 18;;
 *) echo "Erro"
-**esac
-*done
-**echo
+esac
+done
+echo
 
 echo -e "\e[0m\e[01;37;47m TOKEN teste 12 \e[0m"
 for i in $(seq $VEZES);
@@ -205,9 +205,9 @@ case $body in
 null) echo -e "\e[01;33mReprovado"|pv -qL 20; break;;
 $pack) echo -e "\e[01;32mAprovado\e[0m \e[01;37mTeste: $i\e[0m"|pv -qL 18;;
 *) echo "Erro"
-**esac
-*done
-**echo
+esac
+done
+echo
 
 echo -e "\e[0m\e[01;37;41m TOKEN 2 \e[0m"
 for i in $(seq $VEZES);
