@@ -41,7 +41,6 @@ esac
 done
 echo
 
-
 echo -e "\e[0m\e[01;37;46m TOKEN 1 teste \e[0m"
 for i in $(seq $VEZES);
 do
@@ -84,7 +83,7 @@ esac
 done
 echo
 
-echo -e "\e[0m\e[01;37;46m TOKEN 1 teste \e[0m"
+echo -e "\e[0m\e[01;37;46m TOKEN 4 teste \e[0m"
 for i in $(seq $VEZES);
 do
 response=$(data=$"msisdn=$NUMERO&campid=03bc4539-13db-4045-9119-a937eb48d41d&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
@@ -98,6 +97,19 @@ esac
 done
 echo
 
+echo -e "\e[0m\e[01;37;46m TOKEN 5 teste \e[0m"
+for i in $(seq $VEZES);
+do
+response=$(data=$"msisdn=$NUMERO&campid=15252a56-0a46-46d6-818f-3304df8b1a1d&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl -s "${site}" -H "Referer: http://navegue.vivo.com.br/" -d "${data}")
+body=$(echo $response | jq '.packprovision')
+pack=$'"packprovisionOK"'
+case $body in
+null) echo -e "\e[01;33mReprovado"|pv -qL 20; break;;
+$pack) echo -e "\e[01;32mAprovado\e[0m \e[01;37mTeste: $i\e[0m"|pv -qL 18;;
+*) echo "Erro"
+esac
+done
+echo
 
 echo -e "\e[0m\e[01;37;41m TOKEN 2 \e[0m"
 for i in $(seq $VEZES);
